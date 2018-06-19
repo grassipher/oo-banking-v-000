@@ -12,7 +12,6 @@ class Transfer
   end
   
   def valid?
-    account1.valid? && account2.valid?
   end
   
 end
