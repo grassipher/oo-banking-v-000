@@ -1,6 +1,7 @@
 class Transfer
   # your code here
-  attr_reader :sender, :receiver, :amount, :status
+  attr_accessor :status
+  attr_reader :sender, :receiver, :amount
   
   
   def initialize(account1, account2, amount)
